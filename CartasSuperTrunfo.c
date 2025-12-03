@@ -74,22 +74,24 @@ int main() {
     scanf("%d", &NTuristico2);
 
   // Área para exibição dos dados da cidade
-    printf("CARTA 1\n");
+    printf("CARTA 1:\n");
+    
     printf("Estado: %s\n", estado1);
-    printf("Codigo da carta: %s\n", CodigoCarta1);
+    printf("Código: %s\n", CodigoCarta1);
     printf("Nome da cidade: %s\n", NomeCidade1);
     printf("Populacao: %d\n", Populacao1);
     printf("Area: %.2f KM2 \n", Area1);
-    printf("PIB: %.2f R$ \n", PIB1);
+    printf("PIB: %.2f Bilhoes de Reais \n", PIB1);
     printf("Numero de pontos turistico: %d\n", NTuristico1);
 
     printf("CARTA 2\n");
+
     printf("Estado: %s\n", estado2);
-    printf("Codigo da carta: %s\n", CodigoCarta2);
+    printf("Código: %s\n", CodigoCarta2);
     printf("Nome da cidade: %s\n", NomeCidade2);
     printf("Populacao: %d\n", Populacao2);
     printf("Area: %.2f KM2 \n", Area2);
-    printf("PIB: %.2f R$ \n", PIB2);
+    printf("PIB: %.2f Bilhoes de Reais \n", PIB2);
     printf("Numero de pontos turistico: %d\n", NTuristico2);
     
 return 0;
